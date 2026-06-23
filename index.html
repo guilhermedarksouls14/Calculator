@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+     <meta charset="UTF-8">
+     <meta name="viewport"
+     content="width=device-width, initial-scale=1.0">
+     <title> Calculadora </title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+
+</head>
+<body>
+
+  <div class="fundo">
+    <h1> Ghz-dev </h1>
+    <div class="calculadora">
+
+    <p id="resultado"></p>
+<table>
+
+<tr>
+
+<td colspan="2"><button  id="apagartudo" onclick=" limpar()"> C </button></td>
+<td><button id="deletar" onclick="apagarum()"> ⌫ </button></td>
+<td><button id="deletar" onclick="adicionar('+')"> + </button></td>
+
+            
+</tr>
+
+
+<tr>
+<td><button id="numero" onclick="adicionar('7')"> 7</button></td>
+<td><button id="numero" onclick="adicionar('8')"> 8</button></td>
+<td><button id="numero" onclick="adicionar('9')"> 9</button></td>
+<td><button id="multiplicar" onclick="adicionar('*')"> * </button></td>
+</tr>
+
+<tr>
+<td><button id="numero" onclick="adicionar('4')"> 4</button></td>
+<td><button id="numero" onclick="adicionar('5')"> 5</button></td>
+<td><button id="numero" onclick="adicionar('6')"> 6</button></td>
+<td><button id="subtrair" onclick="adicionar('-')"> - </button></td>
+</tr>
+
+
+
+<tr>
+<td><button id="numero" onclick="adicionar('1')">  1 </button></td>
+<td><button id="numero" onclick="adicionar('2')"> 2 </button></td>
+<td><button id="numero" onclick="adicionar('3')"> 3 </button></td>
+<td><button id="dividir" onclick="adicionar('/')"> / </button></td> 
+
+</tr>
+
+
+
+<tr>
+<td><button id="numero" onclick="adicionar('0')">  0 </button></td>
+<td><button id="botaovirgula" onclick="adicionar('.')"> . </button></td>
+<td colspan="2"><button id="igual" onclick="calcular()"> = </button></td>
+</tr>
+</table>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="retangulo"></div>
+
+</body>
+</html>
